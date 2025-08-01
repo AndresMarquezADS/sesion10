@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    1<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,10 @@
         let esMayorDeEdad = false;
         let tieneLicencia = true;
         let puedeConducir = esMayorDeEdad && tieneLicencia;
-        console.log("¿Puede conducir?" , puedeConducir) 
+        console.log("¿Puede conducir?" , puedeConducir)
+        let errorDeConducir=esMayorDeEdad || tieneLicencia;
+        console.log("¿Puede conducir con errores? " , errorDeConducir);
+
         
     
     </script> 
